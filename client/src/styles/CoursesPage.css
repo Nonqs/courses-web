@@ -1,0 +1,16 @@
+.courses-page {
+    display: flex;
+    height: 100vh; 
+}
+
+.accordion-container {
+    width: 30%;
+}
+
+.content-container {
+    width: 70%;
+}
+
+.accordion{
+    height: 100vh; 
+}

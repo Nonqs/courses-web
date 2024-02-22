@@ -1,0 +1,4 @@
+.gradient-bg {
+     background: linear-gradient(to bottom, #00FFFF, #ffffff00); 
+    min-height: 80vh; 
+}
