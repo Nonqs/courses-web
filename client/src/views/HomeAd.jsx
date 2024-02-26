@@ -10,7 +10,7 @@ export function AdMain() {
 
   const getCourses = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/coursesadmin", {});
+      const response = await axios.get("https://dc38-178-237-231-73.ngrok-free.app/coursesadmin", {});
       return response.data;
     } catch (error) {
       console.error("Error getting courses:", error);
